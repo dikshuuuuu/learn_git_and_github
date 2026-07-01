@@ -79,6 +79,9 @@ for num in list:
          odd_number.append(num)
          print("odd")    
  
+##string function
+
+    
 
            
                 

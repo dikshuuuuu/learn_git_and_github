@@ -1,16 +1,16 @@
 #  for loop
-
+'''
 name="savi"
 for i in name:
-for j in colors: 
-    print(j)
+for j in colorsi: 
+  print(j)
     
-    print(i,end="")
+  print(i,end="")
     
 #example:iterating over a tuple: 
 colors=("red","pink","black",) 
 
-
+'''
 
 #iterating over a list
 li=["java","python","c"]

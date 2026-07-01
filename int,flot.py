@@ -7,6 +7,10 @@
 #int()
 
 '''
+
+
+
+
 a =int(input("Enter a value A:"))
 print(a)
 print(type(a)) 

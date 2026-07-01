@@ -11,12 +11,6 @@ print("floor divisoin:",a/b)
 '''
 
 ##assignment operator
-
-
-
-
-
-
 #comparison operatatoe
 x=12
 y=12
@@ -33,7 +27,7 @@ y=10
 print(x<y and x==y) 
 print(x<y or x==y)
 print(not x>y)
-
+ 
 
 ##membership operater
 string="hello"

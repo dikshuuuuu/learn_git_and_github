@@ -1,5 +1,5 @@
 # 1)odd loop to display  element form given list present tha odd index posditions
-'''       
+'''      
   
 my_ in range(1,len1):
 #print(i)
@@ -12,7 +12,7 @@ list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 for i in range(1, len(my_list),2):
     print(my_list[i])
     
- '''  
+ 
 
 #while loop 1)
 
@@ -53,17 +53,16 @@ while attempt<=3:
         
         print(attempt,"attempt completed") 
         attempt+=1
-        
+     '''   
 ##   Problem: Given a list of tasks, use a while loop alongside the .pop()
  #method to remove and print the last item of the list one by one until the list is completely empty.
 
 tasks = ["dishes", "laundry", "groceries"]  
-print("lenght:",list1)
-while len(list1)>0:
-    print(list1.pop())
-    print("update list:",list1)
-    print(len(list1))
-
+ 
+while tasks:
+    item=tasks.pop()
+    print(item)
+'''
 ##    
 ##Problem: Given a list of tasks, use a while loop alongside the .pop()
 ## method to remove and print the last item of the list one by one until the list is completely empty.
@@ -76,3 +75,17 @@ for ch in test:
 print("number of vowrls:",vowel_count) 
 
      
+'''
+my_list=[1,2,3,4,5,6,7,8,9,10]
+print(my_list)
+
+my_list.remove(5)
+print(my_list)
+
+
+my_list.remove(6)
+print(my_list)
+
+#delete pop method
+print(my_list.pop())
+print(my_list)
